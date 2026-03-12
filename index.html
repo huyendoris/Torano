@@ -7,7 +7,8 @@
   <title>TORANO – Mini App</title>
   <!-- REAL MAP REFACTOR: Leaflet.js for high-fidelity interactive mapping -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
     *,
@@ -1778,13 +1779,13 @@
 
     .user-loyalty-name {
       font-size: 14px;
-      color: rgba(255,255,255,0.7);
+      color: rgba(255, 255, 255, 0.7);
     }
 
     .loyalty-link {
       font-size: 11px;
-      color: rgba(255,255,255,0.5);
-      border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       padding: 4px 10px;
       border-radius: 4px;
     }
@@ -1803,7 +1804,7 @@
 
     .points-summary-item .p-lbl {
       font-size: 10px;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255, 255, 255, 0.5);
       text-transform: uppercase;
       margin-top: 2px;
     }
@@ -1813,7 +1814,7 @@
       background: #fff;
       border-radius: 12px;
       padding: 20px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
       position: relative;
       z-index: 10;
     }
@@ -1821,7 +1822,8 @@
     .upgrade-title {
       font-size: 13px;
       font-weight: 700;
-      color: #EE4D2D; /* Keep the label subtle but distinctive if needed, or stick to #1a1a1a */
+      color: #EE4D2D;
+      /* Keep the label subtle but distinctive if needed, or stick to #1a1a1a */
       margin-bottom: 20px;
     }
 
@@ -1877,10 +1879,10 @@
     }
 
     .loyalty-section-title::after {
-       content: 'Tất cả';
-       font-size: 11px;
-       font-weight: 500;
-       color: #888;
+      content: 'Tất cả';
+      font-size: 11px;
+      font-weight: 500;
+      color: #888;
     }
 
     .rewards-grid {
@@ -1893,8 +1895,8 @@
       background: #fff;
       border-radius: 16px;
       padding: 12px;
-      border: 1px solid rgba(0,0,0,0.03);
-      box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
       transition: transform 0.2s;
     }
 
@@ -1956,7 +1958,7 @@
       padding: 16px;
       background: #fff;
       border-radius: 16px;
-      border: 1px solid rgba(0,0,0,0.03);
+      border: 1px solid rgba(0, 0, 0, 0.03);
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -2751,6 +2753,7 @@
       padding: 24px;
       background: #fff;
     }
+
     .success-icon-wrap {
       width: 80px;
       height: 80px;
@@ -2761,41 +2764,48 @@
       justify-content: center;
       margin-bottom: 24px;
     }
+
     .success-title {
       font-size: 20px;
       font-weight: 800;
       margin-bottom: 12px;
     }
+
     .success-desc {
       font-size: 14px;
       color: #666;
       line-height: 1.6;
       margin-bottom: 32px;
     }
+
     .points-earned-card {
       background: #fff;
       padding: 16px 24px;
       border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
       margin-bottom: 32px;
       border: 1px solid #f0f0f0;
     }
+
     .points-val {
       font-size: 24px;
       font-weight: 800;
       color: #E8002D;
     }
+
     .points-lbl {
       font-size: 12px;
       color: #999;
       margin-top: 4px;
     }
+
     .success-actions {
       display: flex;
       flex-direction: column;
       gap: 12px;
       width: 100%;
     }
+
     .btn-outline {
       border: 1px solid #ddd;
       background: #fff;
@@ -2814,12 +2824,25 @@
     }
 
     .shopee-refund-header-title {
-      padding: 20px 16px;
+      padding: 16px;
       font-size: 16px;
       color: #333;
       text-align: center;
       background: #fff;
       border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      position: relative;
+      font-weight: 600;
+      justify-content: center;
+    }
+
+    .shopee-refund-back {
+      position: absolute;
+      left: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
     }
 
     .shopee-situation-list {
@@ -2967,6 +2990,7 @@
       margin-bottom: 8px;
       padding: 16px;
     }
+
     .refund-header {
       display: flex;
       justify-content: space-between;
@@ -2975,11 +2999,13 @@
       border-bottom: 1px solid #f5f5f5;
       padding-bottom: 8px;
     }
+
     .refund-status {
       font-size: 12px;
       font-weight: 700;
       color: #26aa99;
     }
+
     .btn-refund-action {
       background: #fff;
       color: #EE4D2D;
@@ -3949,6 +3975,7 @@
       width: 18px;
       height: 18px;
     }
+
     /* NEARBY LOCATIONS PAGE */
     .nearby-map-container {
       height: 280px;
@@ -3991,8 +4018,8 @@
       padding: 16px;
       display: flex;
       gap: 14px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
-      border: 1px solid rgba(0,0,0,0.02);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+      border: 1px solid rgba(0, 0, 0, 0.02);
     }
 
     .store-icon {
@@ -4045,15 +4072,16 @@
       background: #2196F3;
       border: 3px solid #fff;
       border-radius: 50%;
-      box-shadow: 0 0 10px rgba(33,150,243,0.5);
+      box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
     }
+
     .store-loc-dot {
       width: 14px;
       height: 14px;
       background: #E8002D;
       border: 3px solid #fff;
       border-radius: 50%;
-      box-shadow: 0 0 10px rgba(232,0,45,0.4);
+      box-shadow: 0 0 10px rgba(232, 0, 45, 0.4);
     }
   </style>
 </head>
@@ -4118,7 +4146,7 @@
           </div>
           <div style="position:relative;z-index:2;width:100%">
             <div class="hero-eyebrow">Men's Wear</div>
-            <div class="hero-title" style="letter-spacing: 0;">Đẳng Cấp</div>
+            <div class="hero-title">Đẳng Cấp</div>
             <div class="hero-sub">DẪN ĐẦU XU HƯỚNG THỜI TRANG</div>
             <button class="hero-btn" onclick="switchTab('products')">Khám phá ngay</button>
           </div>
@@ -4488,7 +4516,8 @@
         </div>
         <div class="menu-row" onclick="switchTab('nearby')">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#444" stroke-width="2">
-             <path d="M12 21s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/>
+            <path d="M12 21s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z" />
+            <circle cx="12" cy="10" r="3" />
           </svg>
           <div class="menu-label">Địa điểm gần bạn</div>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ccc" stroke-width="2">
@@ -4658,8 +4687,8 @@
             <div class="p-lbl">Số dư S-Points</div>
           </div>
           <div class="points-summary-item">
-             <div class="p-val">0</div>
-             <div class="p-lbl">S-Points sắp hết hạn</div>
+            <div class="p-val">0</div>
+            <div class="p-lbl">S-Points sắp hết hạn</div>
           </div>
         </div>
       </div>
@@ -4670,12 +4699,16 @@
           <div class="stat-item">
             <div class="stat-label">Đơn hàng</div>
             <div class="stat-val">5/10</div>
-            <div class="stat-progress-bg"><div class="stat-progress-fill" style="width:50%"></div></div>
+            <div class="stat-progress-bg">
+              <div class="stat-progress-fill" style="width:50%"></div>
+            </div>
           </div>
           <div class="stat-item">
             <div class="stat-label">Chi tiêu</div>
             <div class="stat-val">₫1.248.000/5tr</div>
-            <div class="stat-progress-bg"><div class="stat-progress-fill" style="width:25%"></div></div>
+            <div class="stat-progress-bg">
+              <div class="stat-progress-fill" style="width:25%"></div>
+            </div>
           </div>
         </div>
         <div class="upgrade-footer">
@@ -4771,7 +4804,7 @@
         <div class="nearby-title">Địa điểm gần bạn</div>
         <div class="nearby-subtitle">Tìm kiếm các cửa hàng Torano gần vị trí của bạn nhất</div>
         <div class="store-list" id="nearby-store-list">
-           <!-- Dynamic Store Cards -->
+          <!-- Dynamic Store Cards -->
         </div>
       </div>
     </div>
@@ -5708,7 +5741,7 @@
           </div>
           <div class="card-actions">
             ${o.status === 'to_receive' ? `<button class="action-btn primary" onclick="event.stopPropagation();viewOrderDetail('${o.id}')">Theo Dõi</button>` : `<button class="action-btn primary" onclick="event.stopPropagation();viewOrderDetail('${o.id}')">Đơn Hàng Đã Nhận</button>`}
-            <button class="action-btn" onclick="event.stopPropagation();alert('Yêu cầu đã được gửi!')">Yêu Cầu Trả Hàng</button>
+            <button class="action-btn" onclick="event.stopPropagation(); console.log('DEBUG: switchTab to refund'); switchTab('refund')">YÊU CẦU TRẢ HÀNG</button>
             <button class="action-btn" onclick="event.stopPropagation();alert('Đang kết nối người bán...')">Liên Hệ Người Bán</button>
           </div>
         </div>
@@ -5872,7 +5905,7 @@
     };
     // ===================== CHECKOUT FLOW =====================
     let checkoutItems = [];
-    
+
     function openCheckout(productId = null, isQuickBuy = false) {
       if (productId) {
         const p = PRODUCTS.find(x => x.id === productId);
@@ -5889,12 +5922,12 @@
           selectedSize: it.selectedSize || (it.sizes ? it.sizes[0] : 'M')
         }));
       }
-      
+
       if (checkoutItems.length === 0) {
         alert('Giỏ hàng của bạn đang trống!');
         return;
       }
-      
+
       renderCheckout();
       prevPages.push(currentPage);
       showPage('checkout');
@@ -6058,10 +6091,10 @@
     function placeOrder(totalAmount) {
       // Simulate processing
       const pointsEarned = Math.floor(totalAmount / 1000); // 1 point per 1k VND
-      
+
       // Update global user points (simulated)
       // In a real app we'd call an API
-      
+
       renderOrderSuccess(pointsEarned);
       showPage('order-success');
     }
@@ -6097,25 +6130,35 @@
 
     function renderRefund() {
       // List of orders eligible for refund
+      // In a real app we'd filter ORDERS for 'delivered' status that are within 7 days
       const html = `
-      <div class="refund-item">
-        <div class="refund-header">
-          <div style="font-size:13px; font-weight:700">Mã đơn hàng: #TRN2024001</div>
-          <div class="refund-status">Giao hàng thành công</div>
+      <div class="shopee-refund-container">
+        <div class="shopee-refund-header-title">
+          <div class="shopee-refund-back" onclick="switchTab('profile')">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </div>
+          Hoàn tiền & Trả hàng
         </div>
-        <div class="shopee-check-item">
-          <img class="shopee-check-img" src="ao khoac.jpg">
-          <div class="shopee-check-info">
-            <div class="shopee-check-name">Áo khoác gió 2 lớp lót lông cổ cao basic EWCU001</div>
-            <div class="shopee-check-meta">Phân loại: Đen, L</div>
-            <div class="shopee-check-price-row">
-              <div class="shopee-check-price">${fmt(599000)}</div>
-              <div class="shopee-check-qty">x1</div>
+        
+        <div class="refund-item">
+          <div class="refund-header">
+            <div style="font-size:13px; font-weight:700">Mã đơn hàng: #TRN2024001</div>
+            <div class="refund-status">Giao hàng thành công</div>
+          </div>
+          <div class="shopee-check-item">
+            <img class="shopee-check-img" src="ao khoac.jpg">
+            <div class="shopee-check-info">
+              <div class="shopee-check-name">Áo khoác gió 2 lớp lót lông cổ cao basic EWCU001</div>
+              <div class="shopee-check-meta">Phân loại: Đen, L</div>
+              <div class="shopee-check-price-row">
+                <div class="shopee-check-price">${fmt(599000)}</div>
+                <div class="shopee-check-qty">x1</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div style="display:flex; justify-content:flex-end; margin-top:12px">
-          <button class="btn-refund-action" onclick="openRefundSituation('TRN2024001')">Yêu Cầu Trả Hàng/Hoàn Tiền</button>
+          <div style="display:flex; justify-content:flex-end; margin-top:12px">
+            <button class="btn-refund-action" onclick="openRefundSituation('TRN2024001')">Yêu Cầu Trả Hàng/Hoàn Tiền</button>
+          </div>
         </div>
       </div>
       `;
@@ -6125,7 +6168,12 @@
     function openRefundSituation(orderId) {
       document.getElementById('refund-list').innerHTML = `
       <div class="shopee-refund-container">
-        <div class="shopee-refund-header-title">Tình huống bạn đang gặp?</div>
+        <div class="shopee-refund-header-title">
+          <div class="shopee-refund-back" onclick="switchTab('profile')">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </div>
+          Tình huống bạn đang gặp?
+        </div>
         <div class="shopee-situation-list">
            <div class="shopee-situation-item" onclick="openRefundForm('${orderId}', 1)">
               <div class="shopee-situation-icon">
@@ -6144,7 +6192,7 @@
               </div>
               <div class="shopee-situation-content">
                 <div class="shopee-situation-title">Tôi chưa nhận hàng/nhận thiếu hàng</div>
-                <div class="shopee-situation-note">Lưu ý: Trong trường hợp yêu cầu Trả hàng Hoàn tiền của bạn được chấp nhận, Shopee Xu, Voucher, Phí vận chuyển có thể không được hoàn lại</div>
+                <div class="shopee-situation-note">Lưu ý: Trong trường hợp yêu cầu Trả hàng Hoàn tiền của bạn được chấp nhận, S-Points, Voucher, Phí vận chuyển có thể không được hoàn lại</div>
               </div>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ccc" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
            </div>
@@ -6156,7 +6204,12 @@
     function openRefundForm(orderId, type) {
       document.getElementById('refund-list').innerHTML = `
       <div class="shopee-refund-container" style="padding-bottom: 80px;">
-        <div class="shopee-refund-header-title">Yêu cầu Trả hàng/Hoàn tiền</div>
+        <div class="shopee-refund-header-title">
+          <div class="shopee-refund-back" onclick="switchTab('profile')">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </div>
+          Yêu cầu Trả hàng/Hoàn tiền
+        </div>
         
         <div class="shopee-refund-form-item">
           <div class="shopee-check-item" style="background:#fff; margin:0; padding:0; border:none">
@@ -6216,8 +6269,28 @@
     }
 
     function submitRefundRequest() {
-      alert('Yêu cầu trả hàng của bạn đã được gửi thành công. Torano sẽ xem xét và phản hồi trong thời gian sớm nhất!');
-      switchTab('profile');
+      document.getElementById('refund-list').innerHTML = `
+      <div class="shopee-refund-container">
+        <div class="shopee-refund-header-title">
+          <div class="shopee-refund-back" onclick="switchTab('profile')">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </div>
+          Thông báo
+        </div>
+        <div style="background:#fff; min-height:80vh; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:32px; text-align:center">
+          <div class="success-icon-wrap" style="background:#e6f7ef; width:80px; height:80px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:24px">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#26aa99" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+          </div>
+          <div class="success-title" style="font-size:20px; font-weight:800; color:#333; margin-bottom:12px">Gửi yêu cầu thành công!</div>
+          <div class="success-desc" style="font-size:14px; color:#666; line-height:1.6; margin-bottom:32px">
+            Yêu cầu trả hàng của bạn đã được gửi. Torano sẽ xem xét và phản hồi trong thời gian sớm nhất!
+          </div>
+          <button class="btn-buy" style="margin:0; width:100%; height:48px; font-size:13px" onclick="switchTab('profile')">QUAY LẠI TRANG CÁ NHÂN</button>
+        </div>
+      </div>
+      `;
     }
 
     function initLeafletTracking() {
@@ -6355,11 +6428,11 @@
 
     function initNearbyMap() {
       if (nearbyMap) { nearbyMap.remove(); nearbyMap = null; }
-      
+
       const userPos = [21.033, 105.772];
       const mapEl = document.getElementById('nearby-map');
       if (!mapEl) return;
-      
+
       nearbyMap = L.map('nearby-map', { zoomControl: false }).setView(userPos, 14);
 
       L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -6377,7 +6450,7 @@
       });
     }
 
-    window.centerOnStore = function(lat, lng) {
+    window.centerOnStore = function (lat, lng) {
       if (nearbyMap) {
         nearbyMap.setView([lat, lng], 16);
       }
