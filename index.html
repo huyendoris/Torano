@@ -3787,26 +3787,51 @@
     /* PURCHASE HISTORY PAGE UI */
     .history-stats-box {
       margin: 16px;
-      padding: 20px;
-      background: #1a1a1a;
+      padding: 24px 20px;
+      background: linear-gradient(145deg, #181818 0%, #080808 100%);
       color: #fff;
-      border-radius: 16px;
+      border-radius: 12px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 16px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255,255,255,0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .history-stats-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #E8002D, transparent);
+      opacity: 0.8;
     }
 
     .history-stat-label {
-      font-size: 11px;
+      font-size: 10px;
       opacity: 0.6;
       text-transform: uppercase;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
+      letter-spacing: 1.5px;
+      color: #d8d8d8;
     }
 
     .history-stat-val {
-      font-size: 20px;
-      font-weight: 800;
+      font-size: 26px;
+      font-weight: 400;
+      color: #fff;
+      font-family: Georgia, serif;
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+    }
+
+    .history-stat-val span {
+      font-size: 13px;
+      font-weight: 500;
+      font-family: 'Be Vietnam Pro', sans-serif;
       color: #E8002D;
     }
 
@@ -3898,7 +3923,9 @@
     }
 
     .reminder-icon {
-      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .reminder-text {
@@ -4814,16 +4841,18 @@
       <div class="history-stats-box">
         <div class="stats-item-hist">
           <div class="history-stat-label">Sản phẩm đã mua</div>
-          <div class="history-stat-val">08</div>
+          <div class="history-stat-val">08 <span>Món</span></div>
         </div>
         <div class="stats-item-hist">
           <div class="history-stat-label">Tổng chi tiêu</div>
-          <div class="history-stat-val">3.200k</div>
+          <div class="history-stat-val">3.200<span>k</span></div>
         </div>
       </div>
 
       <div class="reorder-reminder-card">
-        <div class="reminder-icon">👕</div>
+        <div class="reminder-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4CAF50" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M20.38 3.46L16 2a8 8 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+        </div>
         <div class="reminder-text">
           <b>Áo polo</b> bạn mua 6 tháng trước đã có mẫu mới với chất liệu cool-max thoáng mát hơn!
         </div>
@@ -4831,7 +4860,10 @@
       </div>
 
       <div class="ai-style-section">
-        <div class="ai-style-head">✨ PHONG CÁCH CỦA RIÊNG BẠN</div>
+        <div class="ai-style-head">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          PHONG CÁCH CỦA RIÊNG BẠN
+        </div>
         <div style="font-size:11px; color:#555; margin-bottom:12px">Dựa trên lịch sử mua hàng, AI nhận thấy bạn yêu
           thích phong cách <b>Smart Casual</b>.</div>
         <div class="hscroll" style="gap:12px">
