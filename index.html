@@ -2544,7 +2544,7 @@
 
     .shopee-check-price {
       font-size: 14px;
-      color: #EE4D2D;
+      color: #E8002D;
     }
 
     .shopee-check-qty {
@@ -2580,7 +2580,7 @@
     }
 
     .shopee-check-val.shopee-orange {
-      color: #EE4D2D;
+      color: #E8002D;
     }
 
     .shopee-insurance-box {
@@ -2620,14 +2620,14 @@
 
     .shopee-footer-save {
       font-size: 11px;
-      color: #EE4D2D;
+      color: #E8002D;
       margin-top: 2px;
     }
 
     .shopee-ship-title {
       font-size: 13px;
       font-weight: 500;
-      color: #26aa99;
+      color: #1a1a1a;
       display: flex;
       justify-content: space-between;
       margin-bottom: 8px;
@@ -2669,7 +2669,7 @@
     }
 
     .shopee-summary-row.total span:last-child {
-      color: #EE4D2D;
+      color: #E8002D;
       font-size: 18px;
       font-weight: 700;
     }
@@ -2702,11 +2702,11 @@
     .shopee-footer-price {
       font-size: 16px;
       font-weight: 700;
-      color: #EE4D2D;
+      color: #E8002D;
     }
 
     .shopee-btn-order {
-      background: #EE4D2D;
+      background: #E8002D;
       color: #fff;
       border: none;
       width: 120px;
@@ -2733,7 +2733,7 @@
     }
 
     .shopee-vip-text span {
-      background: #EE4D2D;
+      background: #E8002D;
       color: #fff;
       font-size: 10px;
       padding: 1px 4px;
@@ -2757,7 +2757,9 @@
     .success-icon-wrap {
       width: 80px;
       height: 80px;
-      background: #e6f7ef;
+      background: #4CAF50;
+      border: 4px solid #fff;
+      box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -2824,17 +2826,7 @@
     }
 
     .shopee-refund-header-title {
-      padding: 16px;
-      font-size: 16px;
-      color: #333;
-      text-align: center;
-      background: #fff;
-      border-bottom: 1px solid #eee;
-      display: flex;
-      align-items: center;
-      position: relative;
-      font-weight: 600;
-      justify-content: center;
+      display: none !important;
     }
 
     .shopee-refund-back {
@@ -2907,7 +2899,7 @@
     }
 
     .shopee-form-label span {
-      color: #EE4D2D;
+      color: #E8002D;
       margin-left: 2px;
     }
 
@@ -2919,7 +2911,7 @@
     }
 
     .shopee-refund-amount {
-      color: #EE4D2D;
+      color: #E8002D;
       font-size: 15px;
       font-weight: 500;
     }
@@ -2981,7 +2973,7 @@
     }
 
     .shopee-btn-submit.active {
-      background: #EE4D2D;
+      background: #E8002D;
       color: #fff;
     }
 
@@ -3003,13 +2995,13 @@
     .refund-status {
       font-size: 12px;
       font-weight: 700;
-      color: #26aa99;
+      color: #1a1a1a;
     }
 
     .btn-refund-action {
       background: #fff;
-      color: #EE4D2D;
-      border: 1px solid #EE4D2D;
+      color: #E8002D;
+      border: 1px solid #E8002D;
       padding: 6px 12px;
       border-radius: 2px;
       font-size: 12px;
@@ -4458,7 +4450,6 @@
 
     <!-- ======================== PAGE: REFUND & RETURN ======================== -->
     <div class="page" id="page-refund" style="background:#f5f5f5; padding-bottom: 80px;">
-      <div class="section-title-history" style="padding: 16px; background:#fff">HOÀN TIỀN / TRẢ HÀNG</div>
       <div id="refund-list">
         <!-- Returnable orders will be rendered here -->
       </div>
@@ -6013,7 +6004,7 @@
           `).join('')}
 
           <div class="shopee-insurance-box">
-             <input type="checkbox" style="width:16px; height:16px; accent-color:#EE4D2D" checked>
+             <input type="checkbox" style="width:16px; height:16px; accent-color:#E8002D" checked>
              <div class="shopee-insurance-text">
                 <div style="color:#333; font-weight:500; font-size:12px; margin-bottom:2px">Bảo hiểm Thời trang <span style="float:right">${fmt(3999)} x1</span></div>
                 Bảo vệ sản phẩm được bảo hiểm khỏi thiệt hại do sự cố bất ngờ... <span style="color:#0055aa">Tìm hiểu thêm</span>
@@ -6033,7 +6024,7 @@
         <!-- Shipping Method Section -->
         <div class="shopee-check-section">
           <div class="shopee-check-row" style="padding-bottom:10px">
-            <div class="shopee-check-label" style="color:#26aa99">Phương thức vận chuyển</div>
+            <div class="shopee-check-label" style="color:#1a1a1a">Phương thức vận chuyển</div>
             <div class="shopee-check-val">Xem tất cả <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ccc" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></div>
           </div>
           <div class="shopee-shipping-box">
@@ -6043,7 +6034,7 @@
              </div>
              <div class="shopee-ship-desc">
                 Nhận hàng vào 15 Th03 - 18 Th03<br>
-                <div style="color:#26aa99; font-size:11px; margin-top:4px">Nhận Voucher trị giá 15.000đ nếu đơn hàng được giao đến bạn sau ngày 18 Tháng 3 2026.</div>
+                <div style="color:#E8002D; font-size:11px; margin-top:4px">Nhận Voucher trị giá 15.000đ nếu đơn hàng được giao đến bạn sau ngày 18 Tháng 3 2026.</div>
              </div>
           </div>
         </div>
@@ -6052,10 +6043,10 @@
         <div class="shopee-check-section">
            <div class="shopee-check-row">
               <div class="shopee-check-label">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="#EE4D2D" style="margin-right:4px"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 10h2v2H6zm0 4h2v2H6zm10-4h2v2h-2zm0 4h2v2h-2z"/></svg>
-                Shopee Voucher
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="#E8002D" style="margin-right:4px"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 10h2v2H6zm0 4h2v2H6zm10-4h2v2h-2zm0 4h2v2h-2z"/></svg>
+                Torano Voucher
               </div>
-              <div class="shopee-check-val shopee-orange">Chọn hoặc nhập mã <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#EE4D2D" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></div>
+              <div class="shopee-check-val shopee-orange">Chọn hoặc nhập mã <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></div>
            </div>
            
            <div class="shopee-check-row" style="margin-top:0">
@@ -6091,11 +6082,11 @@
            </div>
            <div class="shopee-summary-row">
              <span>Giảm giá phí vận chuyển</span>
-             <span style="color:#EE4D2D">${fmt(shipDiscount)}</span>
+             <span style="color:#E8002D">${fmt(shipDiscount)}</span>
            </div>
            <div class="shopee-summary-row">
              <span>Tổng cộng Voucher giảm giá</span>
-             <span style="color:#EE4D2D">-0đ</span>
+             <span style="color:#E8002D">-0đ</span>
            </div>
            <div class="shopee-summary-row total">
              <span>Tổng thanh toán</span>
@@ -6135,7 +6126,7 @@
       document.getElementById('order-success-content').innerHTML = `
       <div class="success-container">
         <div class="success-icon-wrap">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#26aa99" stroke-width="3">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3">
             <polyline points="20 6 9 17 4 12"/>
           </svg>
         </div>
@@ -6148,7 +6139,7 @@
         <div class="points-earned-card">
           <div class="points-val">+${points.toLocaleString()}</div>
           <div class="points-lbl">S-POINTS TÍCH LŨY MỚI</div>
-          <div style="font-size:11px; color:#26aa99; margin-top:8px; font-weight:600">BẠN ĐÃ TIẾN GẦN HƠN ĐẾN HẠNG GOLD</div>
+          <div style="font-size:11px; color:#E8002D; margin-top:8px; font-weight:600">BẠN ĐÃ TIẾN GẦN HƠN ĐẾN HẠNG GOLD</div>
         </div>
 
         <div class="success-actions" style="margin-top: 16px; gap: 10px;">
@@ -6209,7 +6200,7 @@
         <div class="shopee-situation-list">
            <div class="shopee-situation-item" onclick="openRefundForm('${orderId}', 1)">
               <div class="shopee-situation-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EE4D2D" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
               </div>
               <div class="shopee-situation-content">
                 <div class="shopee-situation-title">Tôi đã nhận hàng nhưng hàng có vấn đề (bể vỡ, sai mẫu, hàng lỗi, khác mô tả...) - Miễn ship hoàn về</div>
@@ -6220,7 +6211,7 @@
            
            <div class="shopee-situation-item" onclick="openRefundForm('${orderId}', 2)">
               <div class="shopee-situation-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EE4D2D" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 8v8M8 12h8"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#E8002D" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 8v8M8 12h8"/></svg>
               </div>
               <div class="shopee-situation-content">
                 <div class="shopee-situation-title">Tôi chưa nhận hàng/nhận thiếu hàng</div>
@@ -6310,8 +6301,8 @@
           Thông báo
         </div>
         <div style="background:#fff; min-height:80vh; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:32px; text-align:center">
-          <div class="success-icon-wrap" style="background:#e6f7ef; width:80px; height:80px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:24px">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#26aa99" stroke-width="3">
+          <div class="success-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3">
               <polyline points="20 6 9 17 4 12"/>
             </svg>
           </div>
